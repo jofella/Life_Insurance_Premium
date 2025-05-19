@@ -1,6 +1,10 @@
 # Reserves Calculation in Life Insurance
 
+> This was one of my first small MATLAB projects during my bachelor's studies.  
+> The goal was to gain practical experience with actuarial calculations and scripting in MATLAB.
+
 This project implements a basic reserve calculation model for life insurance using MATLAB. The reserve is calculated based on actuarial assumptions and mortality data provided in an Excel table.
+
 
 ## Overview
 
