@@ -1,27 +1,24 @@
-# 💼 Reserves Calculation in Life Insurance
+# Reserves Calculation in Life Insurance
 
-A MATLAB-based model to calculate life insurance reserves using actuarial assumptions and mortality tables.
+This project implements a basic reserve calculation model for life insurance using MATLAB. The reserve is calculated based on actuarial assumptions and mortality data provided in an Excel table.
 
----
+## Overview
 
-## 📘 Overview
+The goal of this script is to compute the present value of future liabilities under a typical life insurance contract using the net premium method. The implementation is intended for academic or illustrative purposes.
 
-This project implements a reserve calculation for life insurance policies.  
-It uses mortality data (in `Sterbetafel.xlsx`) to estimate the present value of future liabilities under standard actuarial assumptions.
+## Files
 
----
+- `reserves_calculation.m`: Core MATLAB script for performing the calculations.
+- `Sterbetafel.xlsx`: Mortality table used as input data.
 
-## 📂 Files
+## Requirements
 
-- `reserves_calculation.m` — MATLAB script performing the reserve calculations.
-- `Sterbetafel.xlsx` — Mortality table used as input data.
+- MATLAB (R2020b or newer recommended)
+- No additional toolboxes required
 
----
+## Usage
 
-## ⚙️ How to Run
-
-1. Open MATLAB.
-2. Load the `Sterbetafel.xlsx` file (it should be in the same folder).
-3. Run the script:
+1. Place both files (`reserves_calculation.m` and `Sterbetafel.xlsx`) in the same directory.
+2. Open MATLAB and run the script:
    ```matlab
    reserves_calculation
