@@ -22,3 +22,9 @@ The goal of this script is to compute the present value of future liabilities un
 2. Open MATLAB and run the script:
    ```matlab
    reserves_calculation
+
+## Output Example
+
+The following histogram shows the distribution of simulated reserves at the end of the contract term. The vertical red line indicates the mean of all simulated values.
+
+![Simulated Reserves](Reserves_Life_Insurance/reserves_output.png)
